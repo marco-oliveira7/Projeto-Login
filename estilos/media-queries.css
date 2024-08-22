@@ -1,0 +1,102 @@
+/* Typical Device Breakponts
+
+Pequenas telas: ate 600px
+celular: 600px ate 768px
+Tablet: 768px ate 992px
+Desktop: 992px ate 1200
+Grandes telas: acima de 1200px
+
+*/
+
+@media screen and (width >= 768px) /* Tablet */ {
+    body {
+        background: linear-gradient(#e66465, #9198e5);
+    }
+
+    .login {
+        width: 90%;
+    }
+
+    .img-paisagem {
+        float: left;
+        width: 30%;
+        height: 350px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 15px;
+    }
+
+    .formulario {
+        float: right;
+        width: 60%;
+    }
+
+    .formulario p{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (width >= 992px) /* Desktops */ {
+    body {
+        background: linear-gradient(#e66465, #9198e5);
+    }
+
+    .login{
+        width: 890px;
+    }
+
+    .img-paisagem {
+        float: left;
+        width: 50%;
+        height: 350px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 15px;
+    }
+
+    .formulario {
+        float: right;
+        width: 50%;
+    }
+    .formulario p{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (width >= 1200px) /* Telas grandes*/ {
+    body {
+        background: linear-gradient(#e66465, #9198e5);
+    }
+
+    .login{
+        width: 1200px;
+        height: 60%;
+    }
+
+    .img-paisagem {
+        background-position: bottom left;
+        float: left;
+        width: 50%;
+        height: 100%;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 15px;
+    }
+
+    .formulario {
+        float: right;
+        width: 50%;
+    }
+    .formulario p{
+        font-size: 20px;
+    }
+    .forms input {
+        height: 45px;
+    }
+    .botao input{
+        height: 45px;
+    }
+
+    .esqueci-senha a{
+        height: 45px;
+    }
+}

@@ -1,0 +1,123 @@
+/* 
+Paleta de cores:
+Verde: 49a09d
+Lilas: 5f2c82
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100vh;
+}
+
+body{
+    background-color: #9198e5;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+}
+
+.login{
+    background-color: white;
+    position: absolute;
+    width: 250px;
+    height: max-content;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.356);
+    
+    transition: width 0.5s, height 1s;
+    transition-timing-function: ease-in-out;
+}
+.img-paisagem{
+    background-image: url(../img/sunset-3563482_1280.jpg);
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    display: block;
+}
+
+.formulario{
+    margin-top: 20px;
+    display: block;
+}
+.formulario h1{
+    text-align: center;
+}
+
+.formulario p{
+    margin: 15px;
+    font-size: small;
+    text-align: justify;
+    text-indent: auto;
+}
+
+.forms{
+    margin: 8px;
+}
+
+.forms input{
+    background-color:#9ddfde;
+    display: block;
+    width: 70%;
+    margin: auto;
+    height: 35px;
+    border: 2px solid #323a94;
+    border-radius: 5px;
+    text-align: start;
+    font-size: 15px;
+    border-bottom: 1px solid #323a94;
+}
+
+.botao{
+    margin: 10px;
+}
+.botao input{
+    color: white;
+    background-color: #49a09d;
+    display: block;
+    width: 70%;
+    height: 35px;
+    margin: auto;
+    border: none;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.151);
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.botao input:hover{
+    background-color: #34706e;
+}
+.esqueci-senha{
+    margin: 10px;
+}
+.esqueci-senha a{
+    color: #34706e;
+    display: block;
+    width: 70%;
+    height: 35px;
+    margin: auto;
+    border: 1px solid #76a8a7;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.151);
+    font-size: 15px;
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+}
+
+.esqueci-senha a:hover{
+    background-color: #78b8b5;
+    color: white;
+    font-weight: bold;
+}
