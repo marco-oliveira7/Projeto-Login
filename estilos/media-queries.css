@@ -111,4 +111,14 @@ Grandes telas: acima de 1200px
         width: 90%;
         transform: translate(5%, 11%);
     }
+
+    .fa-user{
+        padding: 5px;
+        font-size: 1.5em;
+    }
+
+    .fa-key{
+        padding: 5px;
+        font-size: 1.5em;
+    }
 }
